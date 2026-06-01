@@ -25,7 +25,7 @@ Fonts:
 
 /* Set up the main font and background color for the whole page */
 body {
-  background-color: #f4f8fb; /* Soft light blue for a fresh look */
+  background-color: #8BD1CB; /* Soft light blue for a fresh look */
   font-family: 'Avenir', 'Proxima Nova', Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -93,7 +93,6 @@ h2 {
 
 /* Call-to-Action Section Styles */
 .call-to-action {
-  background-color: #FFC907; /* Primary Yellow */
   color: #222;
   text-align: center;
   padding: 30px 20px;
@@ -111,8 +110,8 @@ h2 {
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
-  background-color: #4FCB53; /* Green */
-  color: #fff;
+  background-color: #FFC907; /* brand yellow */
+  color: #000;
   padding: 14px 32px;
   text-decoration: none;
   border-radius: 6px;
@@ -127,7 +126,7 @@ h2 {
 
 /* Change button color when hovered */
 .donate-button:hover {
-  background-color: #159A48; /* Dark Green */
+  background-color: #b7920d; /* Dark yellow */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
