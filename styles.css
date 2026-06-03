@@ -41,24 +41,6 @@ section {
   padding: 24px 16px;
 }
 
-/* Hero Section Styles */
-.hero {
-  position: relative; /* Needed for overlay */
-  /* Set a background image that covers the whole section */
-  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1500&q=80');
-  background-size: cover;      /* Make the image cover the whole area */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat;
-  color: #fff;                 /* White text for contrast */
-  text-align: center;          /* Center the text */
-  padding: 60px 20px;          /* Add space above and below */
-  border-radius: 0 0 16px 16px; /* Only round bottom corners */
-
-  /* Add a dark overlay for better text readability */
-  /* This uses a simple linear-gradient overlay */
-  background-blend-mode: darken;
-  background-color: rgba(46, 157, 247, 0.45); /* Blue overlay */
-}
 
 /* Make the headline bold and modern */
 .hero h1 {
@@ -76,36 +58,39 @@ section {
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
 
-/* Story Section Styles */
-.story {
-  background-color: #8BD1CB; /* Secondary Light Blue */
-  color: #222;
-  text-align: center;
-  padding: 30px 20px;
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 5px;
+  padding: 5px;
 }
 
-/* Add accent color to section headings */
-h2 {
-  color: #2E9DF7; /* Primary blue */
-  margin-top: 0;
-  font-weight: bold;
+.container div {
+  background-color: #f1f1f1;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
 }
 
-/* Call-to-Action Section Styles */
-.call-to-action {
-  color: #222;
-  text-align: center;
-  padding: 30px 20px;
+.story_text{
+	grid-area: 1 / 1 / span 1 / span 2;
+    }
+.CTA{
+	grid-area: 2 / 1 / span 1 / span 1;
+    }
+.imga{
+	grid-area: 3 / 1 / span 1 / span 1;
+    }
+.imgb{
+	grid-area: 2 / 2 / span 2 / span 1;
+    }
+.imgc{
+	grid-area: 1 / 3 / span 3 / span 1;
+    }
+img {
+	border-radius: 40%;
 }
 
-/* Style the impact story image */
-.impact-image {
-  width: 100%;
-  max-width: 320px;
-  border-radius: 10px;
-  margin-bottom: 16px;
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.10);
-}
 
 /* Donate Button Styles */
 .donate-button {
