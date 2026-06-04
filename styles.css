@@ -34,6 +34,9 @@ body {
 
 .topnav {
   background-color: white;
+  padding: 8px; 
+  margin: 8px;
+  border-radius: 8px;
 }
 
 ul {
@@ -54,6 +57,7 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-size: 1.2em;
 }
 
 /* Make the headline bold and modern */
@@ -110,10 +114,8 @@ ul li a {
 .nav-button{
   display: inline-block;
   background-color: #FFC907; /* brand yellow */
-  color: #000;
   text-decoration: none;
   border-radius: 6px;
-  font-size: 1.1em;
   box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
   transition: background 0.3s, transform 0.2s;
   border: none;
