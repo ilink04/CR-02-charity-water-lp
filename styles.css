@@ -32,18 +32,30 @@ body {
   color: #036;
 }
 
-/* Add a slight shadow and rounded corners to each section for depth */
-section {
-  border-radius: 12px; /* Rounded corners */
-  box-shadow: 0 2px 8px rgba(46, 157, 247, 0.07); /* Soft blue shadow */
-  margin: 24px 10px; /* Space between sections */
-  padding: 24px 16px;
-}
-
 .topnav {
   background-color: white;
-  
 }
+
+ul {
+  list-style-type: none;
+  margin: 8;
+  padding: 8;
+  overflow: hidden;
+  background-color: white;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /* Make the headline bold and modern */
 .hero h1 {
   font-size: 96px;
@@ -93,6 +105,21 @@ section {
 }
 
 
+
+
+.nav-button{
+  display: inline-block;
+  background-color: #FFC907; /* brand yellow */
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 1.1em;
+  box-shadow: 0 2px 8px rgba(79, 203, 83, 0.10);
+  transition: background 0.3s, transform 0.2s;
+  border: none;
+  cursor: pointer;
+}
+
 /* Donate Button Styles */
 .donate-button {
   display: inline-block;
@@ -111,14 +138,15 @@ section {
 }
 
 /* Change button color when hovered */
-.donate-button:hover {
-  background-color: #b7920d; /* Dark yellow */
+a:hover {
+  background-color: #fae7a2; /* Dark yellow */
   transform: translateY(-2px) scale(1.04); /* Slight lift */
 }
 
 /* Add some spacing between sections */
 section {
-  margin-bottom: 20px;
+  margin: 24px 10px; /* Space between sections */
+  padding: 24px 16px;
 }
 
 /* 
