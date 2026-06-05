@@ -62,10 +62,10 @@ ul li a {
 
 /* Make the headline bold and modern */
 .hero h1 {
-  font-size: 96px;
+  font-size: 4em;
   font-weight: bold;
   letter-spacing: 1px;
-  margin-bottom: 15px;
+  margin-bottom: 8px;
   text-shadow: 0 2px 8px rgba(0,0,0,0.15); /* Soft shadow for readability */
 }
 
@@ -75,7 +75,9 @@ ul li a {
   margin-top: 0;
   text-shadow: 0 1px 4px rgba(0,0,0,0.12);
 }
-
+h2 {
+  text-align: left;
+}
 .container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -85,7 +87,7 @@ ul li a {
 
 .container div {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   font-size: 18px;
 }
 
@@ -103,7 +105,7 @@ ul li a {
     }
 .imgc{
 	grid-area: 1 / 3 / span 3 / span 1;
-    }
+  }
 
 .imga img {
   clip-path: circle(40% at 50%);
@@ -113,11 +115,9 @@ ul li a {
 }
 
 .imgc img {
-  clip-path: polygon(100% 25%, 100% 75%, 94% 86%, 83% 94%, 69% 98%, 50% 100%, 32% 98%, 17% 93%, 4% 86%, 0 75%, 0 25%, 7% 14%, 16% 7%, 30% 2%, 50% 0, 66% 1%, 83% 5%, 95% 13%);
+  
+  clip-path: polygon(100% 25%, 100% 75%, 95% 86%, 83% 95%, 70% 98%, 50% 100%, 30% 98%, 17% 93%, 5% 86%, 0 75%, 0 25%, 7% 14%, 16% 7%, 30% 2%, 50% 0, 66% 1%, 83% 5%, 95% 13%);
 }
-
-
-
 
 
 .nav-button{
